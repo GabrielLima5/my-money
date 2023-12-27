@@ -32,20 +32,25 @@ O framework Express foi empregado para modelar a API, facilitando a criação de
 * **Bootstrap**: Usei o sistema Grid de 12 colunas do Bootstrap e também algumas de suas classes para deixar o projeto responsivo.
 
 ## Como usar
-Para usar o MyMoney, você deve ter o Node.js instalado em sua máquina. Caso ainda não possua o Node instalado, instale-o pelo <a href="https://nodejs.org/en">site oficial</a>. Com o Node em sua máquina, execute os seguintes passos:
+Para usar o MyMoney, você deve ter o Node.js e o Git instalado em sua máquina. Caso ainda não possua o Node instalado, instale-o pelo site oficial (<a href="https://nodejs.org/en">Node.js</a>, <a href="https://git-scm.com/">Git</a>). Com o Node e o Git em sua máquina, execute os seguintes passos:
 
 ### Backend
 
-* 1. Abra o terminal, selecione a pasta "backend" localizada dentro do projeto e digite o código: 
+* 1. Abra o terminal e digite o código:
+```
+git clone https://github.com/GabrielLima5/my-money.git
+```
+
+* 2. Abra o diretório do projeto clonado, selecione a pasta "backend" localizada dentro do projeto e digite o código: 
 ```
 npm install
 ``` 
-* 2. Após instaladas as dependências, digite o código:
+* 3. Após instaladas as dependências, digite o código:
 ```
 npm run dev
 ```
 
-* 3. Pronto! O Backend da aplicação já foi ativado, mas ainda não acabou. Siga os passos do Frontend.
+* 4. Pronto! O Backend da aplicação já foi ativado, mas ainda não acabou. Siga os passos do Frontend.
 
 <hr />
 
