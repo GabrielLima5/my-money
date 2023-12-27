@@ -1,0 +1,28 @@
+fieldset .label{
+    display: none;
+}
+
+@media only screen and (max-width: 600px){
+    fieldset .table {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    fieldset .table thead{
+        display: none;
+    }
+
+    fieldset .table tbody tr{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    fieldset .label{
+        display: flex;
+        text-align: left;
+        font-weight: bold;
+    }
+}

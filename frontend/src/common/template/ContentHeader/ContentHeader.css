@@ -1,0 +1,18 @@
+.content-header{
+    margin-left: 10px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.content-header h1{
+    margin: 0;
+    margin-right: 5px;
+}
+
+@media only screen and (max-width: 400px){
+    .content-header{
+        font-size: 1rem;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

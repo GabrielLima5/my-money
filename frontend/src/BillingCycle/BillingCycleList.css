@@ -1,0 +1,65 @@
+.responsive{
+    display: none;
+}
+
+@media only screen and (max-width: 400px){
+    .responsive{
+        margin-left: 50px;
+        display: flex;
+        flex-direction: column;
+        font-weight: bold;
+        height: 135px;
+        border-bottom: 1px solid #000;
+    }
+
+    .cycle-list .table {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .cycle-list .table thead{
+        display: none;
+    }
+
+    .cycle-list .table  tbody{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 30px;
+    }
+
+    .cycle-list .table tbody tr{
+        margin-right: 50px;
+        width: 100%;
+        max-width: 130px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+    }
+
+    .cycle-list .table tbody tr td:nth-child(4){
+        width: 192px;
+        align-self: flex-end;
+    }
+}
+
+@media only screen and (max-width: 350px){
+    .responsive{
+        margin-left: 20px;
+    }
+
+    .cycle-list .table tbody tr{
+        margin-right: 20px;
+    }
+}
+
+@media only screen and (max-width: 290px){
+    .responsive{
+        margin-left: 10px;
+    }
+
+    .cycle-list .table tbody tr{
+        margin-right: 0px;
+    }
+}

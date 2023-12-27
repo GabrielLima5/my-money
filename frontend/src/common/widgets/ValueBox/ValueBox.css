@@ -1,0 +1,26 @@
+.small-box{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 15px;
+}
+
+.small-box h3{
+    font-size: 2rem;
+    text-align: left;
+}
+
+.small-box p{
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.small-box i{
+    font-size: 3rem;
+}
+
+@media only screen and (max-width: 350px){
+    .small-box h3{
+        font-size: 1.5rem;
+    }
+}
